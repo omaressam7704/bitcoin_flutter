@@ -1,28 +1,22 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# Coin Ticker 🤑
 
+Coin Ticker is a simple Flutter application that allows users to check the real-time exchange rates of popular cryptocurrencies (BTC, ETH, LTC) against different fiat currencies. The app is built using Flutter, and it fetches live data from the CoinAPI service.
 
-# Bitcoin Ticker 🤑
+## Features
 
-## Our Goal
+- **Real-Time Data:** Displays the current exchange rates for Bitcoin (BTC), Ethereum (ETH), and Litecoin (LTC) in your selected fiat currency (USD by default).
+- **Cross-Platform Support:** The app is designed to run on both iOS and Android devices. It also supports web via Flutter's web support.
+- **Interactive UI:** Users can select their preferred fiat currency from a dropdown (Android) or a picker (iOS), and the exchange rates will update accordingly.
 
-The objective of this tutorial is to learn about using Cupertino and Material Widgets in parallel and providing a different user interface depending on the platform.
+## Screenshots
 
+![Screenshot](path/to/your/screenshot.png)
 
-## What you will create
+## Installation
 
-We’re going to make a crypto currency price checking app. By the end of the module, you'll be able to monitor your bitcoin investents on the move!
+To run this project locally, follow these steps:
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bitcoin-flutter-demo.gif)
-
-## What you will learn
-
-- How to use the DropdownButton Widget from Material design.
-- How to loop through code using Dart for and for-in loops.
-- How to use Cupertino Widgets in your app.
-- How to check the platform your app is being run on to customise the UI for that platform.
-- Revise previous concepts by completing the challenges.
-
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/coin-ticker.git
+   cd coin-ticker
